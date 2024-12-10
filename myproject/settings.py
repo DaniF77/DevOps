@@ -82,7 +82,7 @@ DATABASES = {
         	'USER': os.environ.get('POSTGRES_USER', 'user'),           # Имя пользователя        
 		'PASSWORD': os.environ.get('POSTGRES_PASSWORD', 'password'),       # Пароль пользователя
         	'HOST': 'db',                # Название хоста, используемого в Docker Compose        
-		'PORT': '5432',              # Порт базы данных
+		'PORT': '5434',              # Порт базы данных
     }
 }
 
